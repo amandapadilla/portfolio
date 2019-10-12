@@ -1,21 +1,12 @@
 import React from "react";
-import "../stylesheets/index.css";
-import "../stylesheets/App.css";
+import Header from "./Header";
+import "../stylesheets/index.scss";
+import "../stylesheets/App.scss";
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <img src="ojo" alt="Welcome to my porfolio" />
-        <nav>
-          <ul>
-            <li>About me</li>
-            <li>Skills</li>
-            <li>Proyects</li>
-            <li>Get in touch!</li>
-          </ul>
-        </nav>
-      </header>
+      <Header/>
       <section>
       <h1 className="page-title">Hello world!<br/> I'm Amanda Padilla <br/>This is my portfolio</h1>
       </section>
