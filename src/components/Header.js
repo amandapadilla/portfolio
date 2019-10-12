@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/index.scss";
+import "../stylesheets/index.css";
 
 function Header (){
     return (
