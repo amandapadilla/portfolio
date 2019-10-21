@@ -2,15 +2,17 @@ import React from "react";
 import Header from "./Header";
 import Landing from "./Landing";
 import About from "./About";
+import Menu from "./Menu";
 import "../stylesheets/index.css";
 import "../stylesheets/App.css";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Landing/>
-      <About/>
+      <Header />
+      <Menu />
+      <Landing />
+      <About />
       <main>
         <section>
           <h2>Skills</h2>
