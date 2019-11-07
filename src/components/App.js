@@ -39,8 +39,10 @@ class App extends React.Component {
 
   render() {
     const { skills, projects } = this.state;
+    const frontendSkills = skills.frontend;
+    const uxSkills = skills.UX;
     // this.formatData();
-    console.log(skills, projects);
+    console.log(frontendSkills, projects);
     return (
       <div className="App">
         <Header />
@@ -51,7 +53,7 @@ class App extends React.Component {
             exact
             path="/skills/"
             render={() => {
-              return <Skills skills={skills} />;
+              return <Skills skills={skills} frontendSkills={frontendSkills} />;
             }}
           />
           {/* <Route exact path="/projects" component={Projects} />
