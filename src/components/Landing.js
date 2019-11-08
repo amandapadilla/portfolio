@@ -11,7 +11,7 @@ const Landing = () => {
           <Link to="/about" replace>
             <li className="landing__about">
               <img
-                src="../images/photoCV.jpg"
+                src="https://pbs.twimg.com/profile_images/1141711214722060288/WUhLVj_E_400x400.jpg"
                 alt="About"
                 className="landing__about--image"
               />

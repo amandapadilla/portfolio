@@ -5,7 +5,11 @@ import "../stylesheets/about.scss";
 const About = () => {
   return (
     <div className="about">
-      <img src="./images/photoCV.jpg" alt="About" className="about__image" />
+      <img
+        src="https://pbs.twimg.com/profile_images/1141711214722060288/WUhLVj_E_400x400.jpg"
+        alt="About"
+        className="about__image"
+      />
       <h2 className="about__title">About me!</h2>
       <section className="about__text">
         <p className="about__paragraph">
