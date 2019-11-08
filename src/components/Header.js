@@ -7,7 +7,7 @@ function Header() {
     <Link to="/">
       <header className="header">
         <h1 className="header__title">Hello world! </h1>
-        <h2 className="header__subtitle">This is my portfolio.</h2>
+        <p className="header__subtitle">This is my portfolio.</p>
       </header>
     </Link>
   );
