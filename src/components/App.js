@@ -4,7 +4,7 @@ import Header from "./Header";
 import Landing from "./Landing";
 import About from "./About";
 import Skills from "./SkillsList";
-// import Projects from "./ProjectList";
+import Projects from "./ProjectList";
 // import Contact from "./Contact";
 import Footer from "./Footer";
 import "../stylesheets/index.scss";
@@ -51,6 +51,13 @@ class App extends React.Component {
             path="/skills/"
             render={() => {
               return <Skills skills={skills} />;
+            }}
+          />
+          <Route
+            exact
+            path="/projects/"
+            render={() => {
+              return <Projects projects={projects} />;
             }}
           />
           {/* <Route exact path="/projects" component={Projects} />

@@ -2,6 +2,9 @@ import React, { Fragment } from "react";
 import Frontend from "./skills/Frontend";
 import UX from "./skills/UX";
 import Agile from "./skills/Agile";
+import Design from "./skills/Design";
+import Communication from "./skills/Communication";
+import Multimedia from "./skills/Multimedia";
 
 const Skills = props => {
   const { skills } = props;
@@ -29,12 +32,15 @@ const Skills = props => {
     );
   } else {
     return (
-      <div>
-        <h2>Skills</h2>
+      <div className="list">
+        <h2 className="list__title">Skills</h2>
         <Fragment>
           <Frontend frontendSkills={frontendSkills} />
           <UX uxSkills={uxSkills} />
           <Agile agileSkills={agileSkills} />
+          <Design designSkills={designSkills} />
+          <Communication communicationSkills={communicationSkills} />
+          <Multimedia multimediaSkills={multimediaSkills} />
         </Fragment>
       </div>
     );

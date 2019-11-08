@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import About from "./About";
-// import Skills from "./SkillsList";
+
 import "../stylesheets/landing.scss";
 
 const Landing = () => {
@@ -22,8 +21,9 @@ const Landing = () => {
           <Link to="/skills">
             <li className="landing__skills">Skills</li>
           </Link>
-
-          <li className="landing__projects">Projects</li>
+          <Link to="/projects">
+            <li className="landing__projects">Projects</li>
+          </Link>
           <li className="landing__contact">Get in touch!</li>
         </ul>
       </nav>
