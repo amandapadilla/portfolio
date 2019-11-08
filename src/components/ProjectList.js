@@ -7,7 +7,7 @@ const Skills = props => {
   if (projects === undefined) {
     return (
       <div>
-        <img src="../images/loader.gif" alt="Loading..." className="loader" />
+        <img src="./images/loader.gif" alt="Loading..." className="loader" />
       </div>
     );
   } else {
