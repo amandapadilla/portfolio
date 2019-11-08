@@ -1,0 +1,14 @@
+.skill {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  &__title {
+  }
+  &__list {
+  }
+  &__item {
+    &--title {
+    }
+    &--description {
+    }
+  }
+}

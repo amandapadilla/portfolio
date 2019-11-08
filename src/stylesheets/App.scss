@@ -7,24 +7,6 @@
 .App {
   background-image: url("../images/background.png");
   height: 100vh;
-  // overflow-y: hidden;
   background-size: cover;
   background-position: center;
-}
-
-.header {
-  height: 10vh;
-  padding: 15px 40px;
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(112, 112, 112, 0.3);
-
-  &__title {
-    font-size: 30px;
-    color: black;
-  }
-  &__subtitle {
-    font-size: 20px;
-    color: rgb(192, 255, 250);
-  }
 }
